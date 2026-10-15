@@ -29,6 +29,10 @@ Every detailed file has the same four parts:
 Timers and limits in these files (OTP expiry, accept timer, refund window and so on) are
 proposed defaults. Most are admin-configurable; change them here when they are decided.
 
+## FigJam files
+
+Every flow also has its own editable FigJam file. All links: [figjam.md](figjam.md).
+
 ## SVG exports for Figma
 
 Every diagram is exported to [svg/](svg/), in a folder per role, named after its file
