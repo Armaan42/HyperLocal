@@ -17,7 +17,8 @@ schemas will be added per group as they are built.
 | Ordering | `carts`, `cart_items`, `checkouts`, `orders`, `order_items`, `payments`, `refunds`, `coupons` |
 | Delivery | `deliveries`, `delivery_offers`, `delivery_events` |
 | Feedback | `store_reviews`, `item_reviews`, `rider_reviews` |
-| Money and audit | `ledger_entries`, `vendor_wallets`, `payouts`, `audit_log`, `outbox_events` |
+| Money and audit | `ledger_entries`, `vendor_wallets`, `route_transfers`, `payouts`, `audit_log`, `outbox_events` |
+| Tax | `tax_rates`, `invoices`, `tax_deductions` (TCS and TDS per payout) |
 
 ## Checkout and orders
 

@@ -17,6 +17,9 @@ the last column says what a different choice would cost.
 | 8 | Rider assignment | Riders accept open jobs themselves | Decided | Auto-assignment needs a dispatch algorithm and rider acceptance rules |
 | 9 | Product limits | Capped by the vendor's plan; no platform-wide limit | Default, unconfirmed | Uncapped products on every plan removes one reason to upgrade |
 | 10 | Order cancellation | Allowed until the vendor marks the order ready | Default, unconfirmed | A later cutoff means refunds for prepared orders |
+| 11 | Holding vendor money | Never in the platform's bank account; vendor shares settle through Razorpay Route linked accounts, on hold until 2 days after delivery | Decided, confirm with lawyer and Razorpay | Holding funds ourselves can require an RBI payment-aggregator licence |
+| 12 | Pharmacy vertical | Deferred until legal advice on online pharmacy rules | Decided | Launching pharmacy adds licensing, prescription checks and legal risk |
+| 13 | Coupon funding | Every coupon is marked platform-funded, vendor-funded or co-funded | Decided | Without it, vendor earnings and platform margin cannot be calculated correctly |
 
 ## Adding a decision
 

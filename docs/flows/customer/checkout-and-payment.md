@@ -69,6 +69,7 @@ address or payment method, they are sent to the full checkout instead.
 - **Payment pending:** the checkout waits up to 10 minutes for the gateway's final answer. Success creates the orders; failure or timeout releases stock and any captured amount is refunded automatically.
 - **COD limits:** cash on delivery is offered only below an admin-set order value and can be disabled per store or per customer.
 - **Coupon with several stores:** a platform coupon's discount is split across stores in proportion to their subtotals; a store's own coupon applies only to that store's items.
+- **Who pays for a coupon:** every coupon is marked platform-funded, vendor-funded or co-funded, and each store's order records its share. See [Discounts and fees](../../product/monetization.md#discounts-and-fees).
 - **One store fails validation:** the whole checkout stops and the customer fixes the cart; nothing is charged.
 
 ## Related

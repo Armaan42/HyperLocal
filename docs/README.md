@@ -41,6 +41,12 @@ Organised by role. Full index: [flows/README.md](flows/README.md).
 | [Support](flows/support/README.md) | Refunds and disputes | 1 |
 | [System](flows/system/README.md) | Order lifecycle, multi-store checkout, money flow, subscription lifecycle | 5 |
 
+## Launch
+
+| Document | Summary |
+|---|---|
+| [Launch readiness](launch/readiness.md) | Legal, tax, payments, product, engineering and operations checklist before go-live |
+
 ## Decisions
 
 | Document | Summary |
@@ -62,6 +68,7 @@ docs/
 │   ├── support/
 │   ├── system/        # cross-role processes
 │   └── svg/           # SVG exports for Figma, same folders
+├── launch/            # go-live checklist
 └── decisions/         # decision log
 ```
 
