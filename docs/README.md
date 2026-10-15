@@ -22,6 +22,7 @@ How it is built.
 |---|---|
 | [System overview](architecture/overview.md) | Components and how they connect |
 | [Tech stack](architecture/tech-stack.md) | The choice for each layer and why |
+| [Technology integration](architecture/integrations.md) | Diagram of how every technology connects |
 | [Scaling and traffic](architecture/scaling.md) | How the system handles load |
 | [Data model](architecture/data-model.md) | Table groups and the rules that protect money |
 | [Security and compliance](architecture/security.md) | Controls that ship with the first release |

@@ -64,6 +64,12 @@ in its own file. When a flow changes, update both its FigJam file and its Markdo
 |---|---|---|
 | Refunds and disputes | [support/refunds-and-disputes.md](support/refunds-and-disputes.md) | [Open](https://www.figma.com/board/eeBXe1R4u28vn4VXYZhTwj) |
 
+## Architecture
+
+| Diagram | Doc | FigJam |
+|---|---|---|
+| Technology integration | [architecture/integrations.md](../architecture/integrations.md) | [Open](https://www.figma.com/board/qFDWNYtNvx8FFg5PqIRNhw) |
+
 ## System
 
 | Flow | Doc | FigJam |
