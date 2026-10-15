@@ -15,6 +15,7 @@ All documentation lives in [docs/](docs/README.md). Start there.
 | Area | What it covers |
 |---|---|
 | [Product](docs/README.md#product) | Roles, features, monetization, roadmap |
-| [Architecture](docs/README.md#architecture) | System design, tech stack, scaling, data model, security |
-| [Flows](docs/flows/README.md) | Flowcharts for every role and core process |
+| [Architecture](docs/README.md#architecture) | System design, tech stack, technology integration, scaling, data model, security |
+| [Flows](docs/flows/README.md) | Flowcharts for every role and core process, with [FigJam files](docs/flows/figjam.md) |
+| [Launch](docs/launch/readiness.md) | Go-live checklist: legal, tax, payments, product, engineering, operations |
 | [Decisions](docs/decisions/README.md) | Decision log |
