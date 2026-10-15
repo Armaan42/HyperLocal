@@ -21,7 +21,7 @@ flowchart TD
     ready --> approve{Auto-release on?}
     approve -->|Yes| send
     approve -->|No| manual[Admin approves batch]
-    manual --> send[Transfers sent through payment provider]
+    manual --> send[Holds released on Razorpay Route transfers]
     send --> result{Result per payout}
     result -->|Success| paid[Marked Paid, ledger updated, vendor notified]
     result -->|Failed| failed[Balance restored, reason recorded]

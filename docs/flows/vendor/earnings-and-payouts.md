@@ -8,7 +8,7 @@ How a vendor sees what they earned and how the money reaches their bank.
 
 ```mermaid
 flowchart TD
-    delivered([Order delivered]) --> calc["Earning = order value - commission - tax on commission"]
+    delivered([Order delivered]) --> calc["Earning = order value - commission - GST on commission - TCS - TDS"]
     calc --> pending["Wallet: pending balance"]
     pending --> hold{2 days passed with no refund request?}
     hold -->|Refund requested| held[Amount held until resolved]
@@ -19,7 +19,7 @@ flowchart TD
     available --> cycle{Payout cycle runs}
     cycle --> min{Balance above minimum payout?}
     min -->|No| carry[Carried to next cycle]
-    min -->|Yes| transfer[Bank transfer created]
+    min -->|Yes| transfer[Hold released on Razorpay Route transfer]
     transfer --> result{Bank result}
     result -->|Success| paid([Payout marked Paid])
     result -->|Failed| failed["Payout failed: balance restored, vendor asked to fix bank details"]

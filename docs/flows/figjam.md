@@ -29,7 +29,7 @@ in its own file. When a flow changes, update both its FigJam file and its Markdo
 | 2 - Store setup | [vendor/store-setup.md](vendor/store-setup.md) | [Open](https://www.figma.com/board/7jixWzE61dClVDMdYOkDd1) |
 | 3 - Products | [vendor/products.md](vendor/products.md) | [Open](https://www.figma.com/board/budGZ8QwamrQFhItTtk0Ab) |
 | 4 - Orders | [vendor/orders.md](vendor/orders.md) | [Open](https://www.figma.com/board/qzZCOIhGtKZDkXlO2hZnlA) |
-| 5 - Earnings and payouts | [vendor/earnings-and-payouts.md](vendor/earnings-and-payouts.md) | [Open](https://www.figma.com/board/CjbZFXV60V4hqbnVSWuSKN) |
+| 5 - Earnings and payouts | [vendor/earnings-and-payouts.md](vendor/earnings-and-payouts.md) | [Open](https://www.figma.com/board/sH7AE24LXoACRyk0oAp2Bi) |
 | 6a - Change subscription plan | [vendor/subscription.md](vendor/subscription.md) | [Open](https://www.figma.com/board/NRJRvnYsNN4W4NM0FaVsHX) |
 | 6b - Plan renewal | [vendor/subscription.md](vendor/subscription.md) | [Open](https://www.figma.com/board/jetpivhbRcyWtz1RtcDQsx) |
 
@@ -55,7 +55,7 @@ in its own file. When a flow changes, update both its FigJam file and its Markdo
 | 4b - Platform settings | [admin/storefront.md](admin/storefront.md) | [Open](https://www.figma.com/board/H84csBjOAnydaEwHyZjBdz) |
 | 5 - Vendor approval | [admin/vendor-approval.md](admin/vendor-approval.md) | [Open](https://www.figma.com/board/mPhumOPnUK5NnGCDLlo36E) |
 | 6 - Orders and refunds | [admin/orders-and-refunds.md](admin/orders-and-refunds.md) | [Open](https://www.figma.com/board/44v5UcaRU1Zg8JU6pdwHTW) |
-| 7 - Payouts | [admin/payouts.md](admin/payouts.md) | [Open](https://www.figma.com/board/LYQnEEYdzRS2Gs1G6mnp4j) |
+| 7 - Payouts | [admin/payouts.md](admin/payouts.md) | [Open](https://www.figma.com/board/jsWRr0cVfvgn0lyFJ9dcy7) |
 | 8 - Staff roles | [admin/riders-users-reports.md](admin/riders-users-reports.md) | [Open](https://www.figma.com/board/0f4qupGHNRg0j4AneGAoCW) |
 
 ## Support
@@ -64,6 +64,12 @@ in its own file. When a flow changes, update both its FigJam file and its Markdo
 |---|---|---|
 | Refunds and disputes | [support/refunds-and-disputes.md](support/refunds-and-disputes.md) | [Open](https://www.figma.com/board/eeBXe1R4u28vn4VXYZhTwj) |
 
+## Architecture
+
+| Diagram | Doc | FigJam |
+|---|---|---|
+| Technology integration | [architecture/integrations.md](../architecture/integrations.md) | [Open](https://www.figma.com/board/qFDWNYtNvx8FFg5PqIRNhw) |
+
 ## System
 
 | Flow | Doc | FigJam |
@@ -71,5 +77,5 @@ in its own file. When a flow changes, update both its FigJam file and its Markdo
 | 1 - Roles and apps | [system/roles-and-apps.md](system/roles-and-apps.md) | [Open](https://www.figma.com/board/hg07aoO4AhRnRB6hI3ugfz) |
 | 2 - Multi-store checkout | [system/multi-store-checkout.md](system/multi-store-checkout.md) | [Open](https://www.figma.com/board/kgMU2NPl8Sv1H68R2VwIrV) |
 | 3 - Order lifecycle | [system/order-lifecycle.md](system/order-lifecycle.md) | [Open](https://www.figma.com/board/qnPjy0z0FJ8JDEfcY06QWk) |
-| 4 - Money flow | [system/money-flow.md](system/money-flow.md) | [Open](https://www.figma.com/board/jJKTmcaToJwLzLYVyXKw9l) |
+| 4 - Money flow | [system/money-flow.md](system/money-flow.md) | [Open](https://www.figma.com/board/7nghlgh7ZmltEOqxaJgaKV) |
 | 5 - Subscription lifecycle | [system/subscription-lifecycle.md](system/subscription-lifecycle.md) | [Open](https://www.figma.com/board/nj2UrEMr5oC9vHcogYML1T) |

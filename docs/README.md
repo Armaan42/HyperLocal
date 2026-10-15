@@ -22,6 +22,7 @@ How it is built.
 |---|---|
 | [System overview](architecture/overview.md) | Components and how they connect |
 | [Tech stack](architecture/tech-stack.md) | The choice for each layer and why |
+| [Technology integration](architecture/integrations.md) | Diagram of how every technology connects |
 | [Scaling and traffic](architecture/scaling.md) | How the system handles load |
 | [Data model](architecture/data-model.md) | Table groups and the rules that protect money |
 | [Security and compliance](architecture/security.md) | Controls that ship with the first release |
@@ -39,6 +40,12 @@ Organised by role. Full index: [flows/README.md](flows/README.md).
 | [Admin](flows/admin/README.md) | Zones, commissions, plans, storefront, approvals, orders, payouts, reports | 8 |
 | [Support](flows/support/README.md) | Refunds and disputes | 1 |
 | [System](flows/system/README.md) | Order lifecycle, multi-store checkout, money flow, subscription lifecycle | 5 |
+
+## Launch
+
+| Document | Summary |
+|---|---|
+| [Launch readiness](launch/readiness.md) | Legal, tax, payments, product, engineering and operations checklist before go-live |
 
 ## Decisions
 
@@ -61,6 +68,7 @@ docs/
 │   ├── support/
 │   ├── system/        # cross-role processes
 │   └── svg/           # SVG exports for Figma, same folders
+├── launch/            # go-live checklist
 └── decisions/         # decision log
 ```
 

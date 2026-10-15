@@ -8,7 +8,8 @@ customers order from stores that deliver to their address, and riders deliver th
 ## Verticals
 
 Food, grocery, pharmacy, fashion, electronics and local services. The launch covers food
-and grocery; see the [decision log](../decisions/README.md).
+and grocery. Pharmacy is deferred until legal advice on India's online pharmacy rules; see
+the [decision log](../decisions/README.md) and [launch readiness](../launch/readiness.md).
 
 ## How the platform earns
 
